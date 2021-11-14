@@ -28,16 +28,16 @@ const validatePassword = (valid) => {
       continue
     }
     if (checkLowerCase(passWord)) {
-      hasUpper = true
+      hasLower = true
       continue
     }
     if (checkUpperCase(passWord)) {
-      hasLower = true
+      hasUpper = true
       continue
     }
   }
 
-  return checkNum && hasSpecial && hasUpper && hasLower
+  return checkNum && hasSpecial && hasLower && hasUpper
 }
 
 

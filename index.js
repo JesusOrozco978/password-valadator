@@ -72,3 +72,4 @@ const checkSpecial = (valid) => {
 }
 
 module.exports = validatePassword
+

@@ -1,8 +1,4 @@
-// Must be a minimum of 8 characters
-// * Must contain at least one lower case letter
-// * Must contain at least one upper case letter
-// * Must contain at least one numeric value
-// * Must contain at least one special character
+
 const validatePassword = (valid) => {
   if (valid.length < 8) return false
   let passArray = valid.split('')
